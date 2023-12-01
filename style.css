@@ -1,0 +1,431 @@
+/* Fonts */
+
+/*Priori Sans OT */
+
+h1, h2, h3, .nav-link {
+    font-family: "priori-sans", sans-serif;
+    font-weight: 900 !important;
+    font-style: normal;
+}
+
+span {
+    font-weight: bold !important;
+    font-style: normal;
+}
+
+/* Raleway */
+
+p {
+    font-family: "raleway", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 1rem !important;
+}
+
+/* buttons */
+
+button, .wpcf7-submit  {
+    font-family: "priori-sans", sans-serif;
+    font-weight: 900 !important;
+    font-style: normal;
+    font-size: 1.2rem !important;
+
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 50px !important;
+    box-shadow: 0;
+    background-color: transparent;
+    padding: 0.5rem 4rem;
+    margin-right: 1rem;
+    box-shadow: 0px 1px 2px #2f2f2f;
+}
+
+button:hover, .wpcf7-submit:hover {
+    color: #954723 !important;
+    background-color: white !important;
+    border-color: white;
+    box-shadow: none !important;
+}
+
+#carouselImageIndicators > button.carousel-control-prev, button.carousel-control-next {
+    color: transparent !important;
+    border: none !important;
+    border-color: transparent;
+    box-shadow: none !important;
+}
+
+#carouselImageIndicators > div.carousel-indicators > button {
+    color: transparent !important;
+    border: none !important;
+    border-color: transparent;
+    box-shadow: none !important;  
+}
+
+#carouselImageIndicators > button.carousel-control-prev, button.carousel-control-next:hover {
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-color: transparent;
+}
+
+#carouselImageIndicators > div.carousel-indicators > button:hover {
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-color: transparent;
+}
+
+.btn-color-reverse {
+    color: black !important;
+    border-color: black !important;
+}
+
+.btn-color-reverse:hover {
+    border-color: white !important;
+}
+
+/* Navbar */
+nav {
+    /* box-shadow: 0px 1px 2px #000000; */
+}
+
+.navbar {
+    font-size: 1.5rem !important;
+
+    background-color: #2A1E1A;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 2rem;
+}
+
+.navbar-toggler:hover {
+    background-color: transparent !important;
+}
+
+.navbar-collapse {
+    display: flex;
+}
+
+.container-fluid {
+    padding: 0.5rem 0 !important;
+}
+
+.navbar-brand {
+    padding: 0 2rem !important;
+}
+
+.nav-link {
+    color: #EFEBE5 !important;
+
+    padding: 0 2rem !important;
+}
+
+/*#single-product-page .nav-link {
+    color: black !important;
+}*/
+
+
+@media (min-width: 992px) {
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    background-color: #2A1E1A;
+    box-shadow: 0px 1px 2px #000000;
+
+    padding: 4rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container-left,  .footer-container-middle{
+    width: 30%;
+}
+
+.footer-container-right {
+    width: 40%;
+}
+
+label {
+    width: 100% !important;
+    display:inline-block !important;
+}
+
+.wpcf7-form-control {
+    width: 100%;
+    margin: 0 !important;
+}
+
+
+/* Home */
+
+.home-hero {
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-hero-container {
+    width: 50%;
+}
+
+.hero-btn-container {
+    row-gap: 1rem;
+    display: flex;
+}
+
+.about-nors-container {
+    height: fit-content;
+    padding: 6rem 0;
+    width: 100%;
+    background-color: #EFEBE5;
+}
+
+.about-nors-inner-container {
+    width: 70%;
+}
+
+.about-nors-img-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about-nors-img {
+    width: 90%;
+    height: auto;
+}
+
+.about-products-container {
+    height: 100vh;
+    padding: 0;
+    width: 100%;
+
+    color: white;
+    background-color: #2A1E1A;
+}
+
+.about-vendors-container {
+    height: fit-content;
+    padding: 6rem 0;
+    width: 100%;
+    background-color: #EFEBE5;
+}
+
+.single-vendor-card {
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+
+    padding: 1rem;
+}
+
+/* Products */
+
+.products-hero {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.products-title {
+    height: 50vh;
+    color: black;
+    background-color: #EFEBE5;
+}
+
+.product-text {
+    display: none;
+    margin: 0;
+
+    font-family: "priori-sans", sans-serif;
+    font-weight: 900 !important;
+}
+
+.product-preview:hover > .product-text {
+    display: block !important;
+    color: white;
+}
+
+.product-preview:hover > .product-img {
+    filter: brightness(25%);
+}
+
+/* Product Detail */
+.carousel {
+    width: 85%;
+    height: auto;
+}
+
+.product-detail-container {
+    padding: 6rem 0!important;
+    width: 100%;
+    background-color: #EFEBE5;
+}
+
+.product-title-outer {
+    display: none;
+}
+
+.product-title-inner {
+    display: block;
+}
+
+.inner-product-detail-container-left {
+    width: 60%;
+}
+
+.inner-product-detail-container-right {
+    width: 40%;
+}
+
+.detail-description {
+    width: 85%;
+}
+
+/* Containers (scalable) */
+
+.fit-content {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container {
+    height: fit-content;
+    padding: 0 !important;
+    max-width: none !important;
+}
+
+.container-scalable {
+    height: fit-content;
+    padding: 0 !important;
+}
+
+/* Scale */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem !important;
+    }
+
+    h2 {
+        font-size: 1.2rem !important;
+    }
+
+    h3 {
+        font-size: 1.2rem !important;
+    }
+
+    p {
+        font-size: 0.8rem !important;
+    }
+
+    button {
+        font-size: 0.8rem !important;;
+    }
+
+    .footer-container-left,  .footer-container-middle {
+        width: 100%;
+    }
+
+    .footer-container-right {
+        width: 100%;
+    }
+
+    .hero-btn-container {
+        row-gap: 1rem;
+
+        white-space: nowrap;
+    }
+
+    .about-nors-container-scalable {
+        flex-direction: column-reverse !important;
+    }
+
+    .about-nors-inner-container {
+        width: 100%;
+    }
+
+    .about-nors-img {
+        width: 50% !important;
+    }
+
+    .about-nors-img-container {
+        justify-content: center !important;
+    }
+
+    .about-products-container {
+        height: fit-content;
+        padding: 6rem 0;
+    }
+
+    .about-products-img {
+        width: 25% !important;
+    }
+
+    .products-hero {
+        height: 25vh;
+    }
+
+    .products-title {
+        height: 25vh;
+    }
+
+    .product-title-outer {
+        display: block;
+    }
+    
+    .product-title-inner {
+        display: none;
+    }
+
+    .inner-product-detail-container-left {
+        width: 100%;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+    
+    .inner-product-detail-container-right {
+        width: 100%;
+    }
+
+    .container-scalable {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .about-nors-img {
+        width: 75% !important;
+    }
+
+    .about-products-img {
+        width: 25% !important;
+    }
+
+    .product-preview {
+        width: 50% !important;
+    }
+}
