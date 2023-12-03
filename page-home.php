@@ -1,3 +1,6 @@
+<body id="home">
+    
+
 <?php get_header(); ?>
 
 <!-- Display posts on page -->
@@ -10,7 +13,7 @@
             <h1> <?php the_field('hero_title'); ?> </h1>
             <p style="margin-bottom: 4rem;"> <?php the_field('hero_description'); ?> </p>
             <div class="hero-btn-container" style="flex-wrap: wrap;">
-                <a href="http://nors.local/products/" style="margin-right: 2rem;"><button>SE PRODUKTER</button></a>
+                <a href="https://nors.mariewium.dk/products" style="margin-right: 2rem;"><button>SE PRODUKTER</button></a>
                 <a href="#about_nors"><button>OM NORS ▼</button></a>
             </div>
         </div>
@@ -41,7 +44,7 @@
         <div class="container">
             <h2> <?php the_field('about_products_title_1'); ?> </h2>
             <p style="margin-bottom: 4rem;"> <?php the_field('about_products_description_1'); ?> </p>
-            <a href="http://nors.local/products/"><button>SE PRODUKTER</button></a>
+            <a href="https://nors.mariewium.dk/products"><button>SE PRODUKTER</button></a>
         </div>
         <div class="container d-flex justify-content-center align-items-center">
             <img src="<?php the_field('about_products_img'); ?>" class="about-products-img" alt="" style="width: 75%; height: auto;">
@@ -102,5 +105,7 @@
 
 <?php endwhile; ?>
 <?php wp_reset_postdata(); ?>
+
+</body>
 
 <?php get_footer(); ?>

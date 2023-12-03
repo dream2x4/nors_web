@@ -4,8 +4,8 @@
         <div class="footer-container-left d-flex flex-column">
             <div class="fit-content">
                 <h3>GENVEJE</h3>
-                <a href="http://nors.local/products/"> <p>Produkter</p> </a>
-                <a href="http://nors.local/home"> <p>Hjem</p> </a>
+                <a href="https://nors.mariewium.dk/products"> <p>Produkter</p> </a>
+                <a href="https://nors.mariewium.dk/"> <p>Hjem</p> </a>
                 <a href="#nav">⭡ OP</a>
             </div>
         </div>

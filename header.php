@@ -19,7 +19,7 @@
 
 <nav class="navbar navbar-expand-lg" id="nav" style="z-index: 1000; position: absolute; width: 100%">
   <div class="container-fluid">
-  <a class="navbar-brand" href="http://nors.local/home">
+  <a class="navbar-brand" href="https://nors.mariewium.dk/">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/nors_logo.svg" alt="" style="height: auto; width: 60px;">
   </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +29,8 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-      <a class="nav-link" href="http://nors.local/home">HJEM</a>
-        <a class="nav-link" aria-current="page" href="http://nors.local/products/">PRODUKTER</a>
+      <a class="nav-link" href="https://nors.mariewium.dk/">HJEM</a>
+        <a class="nav-link" href="https://nors.mariewium.dk/products">PRODUKTER</a>
         <a class="nav-link" href="#footer">KONTAKT</a>
       </div>
     </div>

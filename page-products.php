@@ -1,3 +1,6 @@
+<body id="products">
+
+
 <?php get_header(); ?>
 
 <!-- Display posts on page -->
@@ -34,5 +37,7 @@
 
 <?php endwhile; ?>
 <?php wp_reset_postdata(); ?>
+
+    </body>
 
 <?php get_footer(); ?>
